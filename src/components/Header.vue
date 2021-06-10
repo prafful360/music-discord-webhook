@@ -9,7 +9,7 @@
       <span> <router-link to="/providers">Providers</router-link> </span>
     </div>
     <div class="user-login-register">
-      <span> <router-link to="/registration"></router-link> Register</span>
+      <span> <router-link to="/registration">Register</router-link> </span>
     </div>
   </div>
 </template>
