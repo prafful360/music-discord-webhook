@@ -1,0 +1,26 @@
+@import "_colors.scss";
+
+
+html,
+body,
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+input {
+  border: 0px;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  transition: border 4s ease;
+  padding: 4px;
+  &:hover{
+      color: $magenta;
+      border: 1px solid $black;
+      
+  }
+}
